@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Abinash-016/Learn-Node/issues"
   },
-  "homepage": "https://github.com/Abinash-016/Learn-Node#readme"
+  "homepage": "https://github.com/Abinash-016/Learn-Node#readme",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
 }

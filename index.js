@@ -8,9 +8,12 @@
 
 
 
-const http =require('http');
+// const http =require('http');
 
-http.createServer((req, resp)=>{
-    resp.write("Hello User");
-    resp.end();
-}).listen(5000);
+// http.createServer((req, resp)=>{
+//     resp.write("Hello User");
+//     resp.end();
+// }).listen(5000);
+
+
+console.log("Hello, there I'm Abinash");
