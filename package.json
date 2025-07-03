@@ -1,0 +1,19 @@
+{
+  "name": "learnnode",
+  "version": "1.0.0",
+  "description": "LearnNode",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abinash-016/Learn-Node.git"
+  },
+  "author": "Abinash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abinash-016/Learn-Node/issues"
+  },
+  "homepage": "https://github.com/Abinash-016/Learn-Node#readme"
+}
