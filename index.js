@@ -8,12 +8,20 @@
 
 
 
-// const http =require('http');
+// const multiply=(a,b)=>{
+//     return(a*b);
+// }
 
-// http.createServer((req, resp)=>{
-//     resp.write("Hello User");
-//     resp.end();
-// }).listen(5000);
+// console.log("Hello, there I'm Abinash");
+
+// console.log(multiply(10,32));
 
 
-console.log("Hello, there I'm Abinash");
+const data=require('./data')
+const http = require('http');
+
+http.createServer((req, resp) => {
+    resp.writeHead(200, { 'Content-type': 'application\json' });
+    resp.write(JSON.stringify(data));
+    resp.end();
+}).listen(5000);
