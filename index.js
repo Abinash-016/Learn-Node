@@ -50,13 +50,37 @@
 
 
 
-const fs =require('fs');
-const path =require('path');
-const dirPath=path.join(__dirname,'files');
+// const fs =require('fs');
+// const path =require('path');
+// const dirPath=path.join(__dirname,'files');
 
-for(i=1; i<5; i++){
-    fs.writeFileSync(dirPath+"/hello"+i+".txt","textfile no"+i);
-}
-fs.readdir(dirPath,(error,files)=>{
-    console.log(files);
-});
+// for(i=1; i<5; i++){
+//     fs.writeFileSync(dirPath+"/hello"+i+".txt","textfile no"+i);
+// }
+// fs.readdir(dirPath,(error,files)=>{
+//     console.log(files);
+// });
+
+
+
+// const fs =require('fs');
+// const path =require('path');
+// const dirPath=path.join(__dirname,'crud');
+// const filepath=`${dirPath}/file.txt`;
+
+
+// fs.writeFileSync(filepath,"Text file");  //create a file 
+// fs.readFile(filepath,'Utf8',(err,item)=>{ //read the files content
+//     console.log(item);
+// })
+
+
+// fs.appendFile(filepath," Added",(err)=>{ //update the file 
+//     if(!err){
+//         console.log("file is updated check the file's content");
+        
+//     }
+// })
+
+
+// fs.unlinkSync(`${filepath}`); //deleted the file 
