@@ -89,16 +89,21 @@
 
 
 //                                       How to handle asynchronous data 
-let a=10;
-let b=5;
+// let a=10;
+// let b=5;
 
-const waitingData= new Promise((resolve,reject)=>{
-    setTimeout(()=>{
-        resolve(20)
-    },2000)
-})
+// const waitingData= new Promise((resolve,reject)=>{
+//     setTimeout(()=>{
+//         resolve(20)
+//     },2000)
+// })
 
-waitingData.then((data)=>{
-    b=data;
-    console.log(a+b);
-})
+// waitingData.then((data)=>{
+//     b=data;
+//     console.log(a+b);
+// })
+
+
+
+
+
