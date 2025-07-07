@@ -18,13 +18,13 @@ const reqFilter=(req,resp,next)=>{
    
 }
 
-app.use(reqFilter);
+// app.use(reqFilter);
 
 app.get('', (req,resp)=>{
     resp.send("Hello, this is home page")
 });
 
-app.get('/about', (req,resp)=>{
+app.get('/about',reqFilter, (req,resp)=>{
     resp.send("Hello, this is About page")
 });
 
